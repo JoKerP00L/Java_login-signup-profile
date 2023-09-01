@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="login">login</string>
+    <string name="signup_here">Create a new account? <b>Signup</b> </string>
+    <string name="login_here">Already have an account? <b>Login.</b></string>
+    <string name="fetch_data">Fetch Data</string>
+    <string name="signup">signup</string>
+    <string name="Logout">Logout</string>
+    <string name="Email">Email</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="Auth">Auth</string>
+
+</resources>

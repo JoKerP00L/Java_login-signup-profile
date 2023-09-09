@@ -67,7 +67,6 @@ public class SignUP extends AppCompatActivity{
                 password = String.valueOf(textInputEditTextPassword.getText());
                 email = String.valueOf(textInputEditTextEmail.getText());
                 RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
-//                String url ="http://192.168.0.108/PHP_auth_api_key/register.php";
                 String url = BASE_URL+"register.php";
                 StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                         new Response.Listener<String>() {

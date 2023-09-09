@@ -99,7 +99,6 @@ public class Login extends AppCompatActivity{
                     email = String.valueOf(textInputEditTextEmail.getText());
                     password = String.valueOf(textInputEditTextPassword.getText());
                     RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
-//                    String url ="http://192.168.0.108/PHP_auth_api_key/new_login.php";
                     String url = BASE_URL+"new_login.php";
 
                     StringRequest stringRequest = new StringRequest(Request.Method.POST, url,

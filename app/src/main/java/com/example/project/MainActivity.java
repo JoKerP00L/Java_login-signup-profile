@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
-//                String url = "http://192.168.0.108/PHP_auth_api_key/logout.php";
                 String url = BASE_URL+"logout.php";
                 StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                         new Response.Listener<String>() {
@@ -95,7 +94,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
-//                String url = "http://192.168.0.108/PHP_auth_api_key/profile.php";
                 String url = BASE_URL+"profile.php";
                 StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                         new Response.Listener<String>() {

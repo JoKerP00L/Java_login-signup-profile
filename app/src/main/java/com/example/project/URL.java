@@ -5,6 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class URL extends AppCompatActivity {
 
-    public static final String BASE_URL = "https://kunals-resume.000webhostapp.com/api/";
+    public static final String BASE_URL = "http://localhost/php-api/api/";
 
 }
